@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+    <label for="cliente">Nome do cliente</label><br>
+    <input type="text" id="cliente" name="cliente"><br><br>
+
+    <label for="tamanho">Tamanho do lanche</label><br>
+    <select id="tamanho" name="tamanho">
+        <option value="">Selecione...</option>
+        <option value="pequeno">Pequeno</option>
+        <option value="medio">Médio</option>
+        <option value="grande">Grande</option>
+    </select><br><br>
+
+    <label for="quantidade">Quantidade</label><br>
+    <input type="number" id="quantidade" name="quantidade" value="1" min="1"> unidades.<br><br>
+
+    <p>Tipo de pão</p>
+    <input type="radio" id="frances" name="pao" value="Francês">
+    <label for="frances">Francês</label><br>
+
+    <input type="radio" id="brioche" name="pao" value="Brioche">
+    <label for="brioche">Brioche</label><br>
+
+    <input type="radio" id="integral" name="pao" value="Integral">
+    <label for="integral">Integral</label><br><br>
+
+    <label for="obs">Observações</label><br>
+    <textarea id="obs" name="obs" placeholder="Ex.: retirar cebola, maionese à parte..."></textarea><br><br>
+
+    <input type="submit" value="Finalizar Pedido">
+    </form>
+</body>
+</html>
